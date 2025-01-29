@@ -213,7 +213,7 @@ html
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .greeting
@@ -651,7 +651,7 @@ section p
     }
     .social-media a
     {
-        margin: 2em 0.5em;
+        margin: 2em 0em;
     }
 
     .navigations .footer-item
