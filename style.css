@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
 
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: .5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }   
+}
 *
 {
     margin: 0;
@@ -352,6 +362,9 @@ svg
     padding: 35px;
     background: rgba(55, 44, 44, 0.7);
     backdrop-filter: blur(10px);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
 }
 
 section p
