@@ -189,6 +189,16 @@ html
     padding: 3px;
 }
 
+.name .info .languages
+{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .name .info .family-name
 {
     font-size: clamp(1.75rem, 1.6029rem + 0.5882vw, 2rem);
@@ -359,6 +369,7 @@ svg
     text-align: justify;
     border: none;
     border-radius: 30px;
+    box-shadow: rgba(88, 87, 95, 0.15) 0px 48px 100px 0px;
     padding: 35px;
     background: rgba(55, 44, 44, 0.7);
     backdrop-filter: blur(10px);
